@@ -19,13 +19,21 @@
 
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
 
-initalnumber = 1
-controlnumber2 = 0
-controlnumber3 = 0
+controlnumber1 = 1 
+controlnumber2 = 2
+controlnumber3 = 3
 
-sum = initialnumber + controlnumber2 + controlnumber3
-
+summa = 1
 for x in range(0,n):
-    print(sum)
-    sum = initialnumber 
+    if x <= 2:
+        print(summa)
+        summa = summa + 1
+    else:
+        summa = controlnumber1 + controlnumber2 + controlnumber3
+        print(summa)
+        controlnumber1 = controlnumber2
+        controlnumber2 = controlnumber3
+        controlnumber3 = summa
 
+
+    
