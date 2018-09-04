@@ -6,9 +6,9 @@ if input number is negative break.
 
 compare input number to control number
 
-if input number is higher print input number
-else print control number
-if control number was higher do nothing
-else make control number = input number
-run loop again
+if input number is higher
+control number is equal to input number
+else control number stays the same
+
+at end of loop print out control number
 
